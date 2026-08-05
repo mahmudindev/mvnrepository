@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoevents",
+    "module": "orenoevents-fabric",
+    "version": "0.0.1+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.1+1.20.1.jar",
+          "url": "orenoevents-fabric-0.0.1+1.20.1.jar",
+          "size": 14166,
+          "sha512": "01a7857ac75e85635e509916dc5ff471471a3468ace1c881fdaf68f1cb731d1ff3d447116327b17d123f6f42de4b11003e915e94d52895fa07bdf49681216e6b",
+          "sha256": "1cef2104bbc4153e8d73c9e2068b5db2595f801cb4e54cfbbbd81277ec1c4849",
+          "sha1": "47f12a57ee1c90f15d16992e10f734ba6cd1cd3d",
+          "md5": "9494e0b649f80ad308d76d54c7ebfb9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.1+1.20.1.jar",
+          "url": "orenoevents-fabric-0.0.1+1.20.1.jar",
+          "size": 14166,
+          "sha512": "01a7857ac75e85635e509916dc5ff471471a3468ace1c881fdaf68f1cb731d1ff3d447116327b17d123f6f42de4b11003e915e94d52895fa07bdf49681216e6b",
+          "sha256": "1cef2104bbc4153e8d73c9e2068b5db2595f801cb4e54cfbbbd81277ec1c4849",
+          "sha1": "47f12a57ee1c90f15d16992e10f734ba6cd1cd3d",
+          "md5": "9494e0b649f80ad308d76d54c7ebfb9a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.1+1.20.1-sources.jar",
+          "url": "orenoevents-fabric-0.0.1+1.20.1-sources.jar",
+          "size": 4963,
+          "sha512": "b3451b5051d6937c9c902f6ade2c7159afee25a08b06a9c060295a577bcb89b4f013c7dbc4957eab9a9727d71484464540f52e24ed74fa453971db43f9ce7f56",
+          "sha256": "57bdbf1b1e99af4731391fd19c41faa645cd9156e3766f9c8da864c1c00ba92b",
+          "sha1": "adf20e283786230ab33da62ca5fa8f288014a5e2",
+          "md5": "aa8561104bf85af3294836f611a18ab1"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.1+1.20.1-dev-shadow.jar",
+          "url": "orenoevents-fabric-0.0.1+1.20.1-dev-shadow.jar",
+          "size": 13430,
+          "sha512": "7180fe502bad04ec3606bb613d2242ff55b3cf2e9a2a7bccb19198cd4d2a1a04e4557d124ddfcacce5ef59bea9418310bd46dace11cbd2f1b46ade31dba33db5",
+          "sha256": "851fb6816b4bbaea1fd90b6d7bda1c288afb371b94a15686b30d1d603b316202",
+          "sha1": "9fa50af184821dda7c9d8571b2a352385696ac03",
+          "md5": "57f97b8357772f9d4fa29e53b6e1a885"
+        }
+      ]
+    }
+  ]
+}
