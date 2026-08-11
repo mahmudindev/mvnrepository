@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoevents",
+    "module": "orenoevents-forge",
+    "version": "0.0.2+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoevents-forge-0.0.2+1.20.1.jar",
+          "url": "orenoevents-forge-0.0.2+1.20.1.jar",
+          "size": 22618,
+          "sha512": "d90cc7f9c3aa4ac020941f4998dc4153c2e308e25bcd465c9891d1f2463f4c3728f78f63e0ec2007f0ffd9f3ff99d7565cb13acd4c746ee56b255715a19c9d22",
+          "sha256": "386c29c7dd62efc981177a1e01da93e8c2eb620219915c4ed2673f10e8bbb203",
+          "sha1": "6f5b556573b55f7f3c1f8fb67752264e0b9d1b03",
+          "md5": "b029f61836f85c6c1c4f4c076293b6f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-forge-0.0.2+1.20.1.jar",
+          "url": "orenoevents-forge-0.0.2+1.20.1.jar",
+          "size": 22618,
+          "sha512": "d90cc7f9c3aa4ac020941f4998dc4153c2e308e25bcd465c9891d1f2463f4c3728f78f63e0ec2007f0ffd9f3ff99d7565cb13acd4c746ee56b255715a19c9d22",
+          "sha256": "386c29c7dd62efc981177a1e01da93e8c2eb620219915c4ed2673f10e8bbb203",
+          "sha1": "6f5b556573b55f7f3c1f8fb67752264e0b9d1b03",
+          "md5": "b029f61836f85c6c1c4f4c076293b6f4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-forge-0.0.2+1.20.1-sources.jar",
+          "url": "orenoevents-forge-0.0.2+1.20.1-sources.jar",
+          "size": 6601,
+          "sha512": "61ac1356429126e9ad0bd6d437243101ebc6b1845b2c9abd903d21fd92745616e7a5d605cf6b4d1a9a2d7606555e5bf25a6a4b3e5fff7491347ed1a49b75d22a",
+          "sha256": "bed9e6178f9aa529515764a3b92829cd05a7c3aa6dcde39abd00d63b21384cf6",
+          "sha1": "83a5420d6f7f9f82d8b0e649a2bc7f51ba5cc7f6",
+          "md5": "bd40e17796084cf8a9977c8ba019ea19"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-forge-0.0.2+1.20.1-dev-shadow.jar",
+          "url": "orenoevents-forge-0.0.2+1.20.1-dev-shadow.jar",
+          "size": 21815,
+          "sha512": "e78932cc32513ec86a4302be09a90d8bacad57ef6851c527e22478001ac1d8df1979a8579c3c44cbf59d9fe2eaac4cb7fdf275503c41e7bc199983d45bb54ad1",
+          "sha256": "ca0d20aa3e22024c8b02628bd1f7defadeaf4467b7224d3c47f0d8122406121b",
+          "sha1": "c9d39b2dde0fbf7a0106719de302b26b2e3883e2",
+          "md5": "c127d8d7bac93384af6299d6b4dc5047"
+        }
+      ]
+    }
+  ]
+}
