@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenocommons",
+    "module": "orenocommons-fabric",
+    "version": "0.0.2+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.2+1.20.1.jar",
+          "url": "orenocommons-fabric-0.0.2+1.20.1.jar",
+          "size": 15957,
+          "sha512": "70e633e01f0220ba6f5fc11e58ca4ed3145e58685af892402bc3b89110a337dd1df89c031f14f5a2dedcac722095cfb521895bdfc89546d0d450885d50ad1aed",
+          "sha256": "cb1c4ce57bebec945926cf29ffa18f7d662035c9e0d40507dd554d16e772f5a6",
+          "sha1": "d060bb249613d7ca32aa49d03ce0f5eb9786161b",
+          "md5": "894db1c71af43bef6c29beea261aba33"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.2+1.20.1.jar",
+          "url": "orenocommons-fabric-0.0.2+1.20.1.jar",
+          "size": 15957,
+          "sha512": "70e633e01f0220ba6f5fc11e58ca4ed3145e58685af892402bc3b89110a337dd1df89c031f14f5a2dedcac722095cfb521895bdfc89546d0d450885d50ad1aed",
+          "sha256": "cb1c4ce57bebec945926cf29ffa18f7d662035c9e0d40507dd554d16e772f5a6",
+          "sha1": "d060bb249613d7ca32aa49d03ce0f5eb9786161b",
+          "md5": "894db1c71af43bef6c29beea261aba33"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.2+1.20.1-sources.jar",
+          "url": "orenocommons-fabric-0.0.2+1.20.1-sources.jar",
+          "size": 5661,
+          "sha512": "3e2bb881a5abf70690a1a3c4ce71675d7da3c52c8e1163111b853c3831185643091e3cc358133d30ee6d3c01417ddea80bb1898e193f834b6eb196760d2ce323",
+          "sha256": "9cc68740d0bf885c5a4307c5d0882426c5120cff6f279da1640466dec607bda7",
+          "sha1": "cb338970285e257af4a582c831a77bced09c4e42",
+          "md5": "cba1972acbec9f02545b00be0bacb2c8"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.2+1.20.1-dev-shadow.jar",
+          "url": "orenocommons-fabric-0.0.2+1.20.1-dev-shadow.jar",
+          "size": 15135,
+          "sha512": "fb96d8e382ac02fa3085c53118b5e3521de9a6947dd58421d25be69f91d9dc9b99b3fbeef07d021402e4cbf39799f502b67c2face4183b29d07a1ec669756300",
+          "sha256": "21b2312d8a710ab28fc9c28a9b8cfbe5d6d0bfb931b3764b9df4c14bcd7c8829",
+          "sha1": "80c5e5f622416e29e4fc2c91a46dfb2bfbcdb948",
+          "md5": "3c87baeeee4c123a845fc5b291f761a0"
+        }
+      ]
+    }
+  ]
+}
