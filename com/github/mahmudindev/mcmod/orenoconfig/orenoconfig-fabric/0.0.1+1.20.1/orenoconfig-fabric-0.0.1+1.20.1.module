@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.1+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.1+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.1+1.20.1.jar",
+          "size": 317761,
+          "sha512": "a03e45c314562aaceddeca4e5b1b1390b571932790d981b8a3419b4c4318375a6e8f981d77562b0a90bcde6ccf814c98168973f6f4f8d78cd931664ab9d1f953",
+          "sha256": "58c4e89490993957f33250f43012efdc6a55cd222311715756d9b716b486c4b0",
+          "sha1": "3814a54ca1e8905a7c128695b60c5592d2ba58d2",
+          "md5": "40210a3ae5e831d3b069019a33abbc8b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.1+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.1+1.20.1.jar",
+          "size": 317761,
+          "sha512": "a03e45c314562aaceddeca4e5b1b1390b571932790d981b8a3419b4c4318375a6e8f981d77562b0a90bcde6ccf814c98168973f6f4f8d78cd931664ab9d1f953",
+          "sha256": "58c4e89490993957f33250f43012efdc6a55cd222311715756d9b716b486c4b0",
+          "sha1": "3814a54ca1e8905a7c128695b60c5592d2ba58d2",
+          "md5": "40210a3ae5e831d3b069019a33abbc8b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.1+1.20.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.1+1.20.1-sources.jar",
+          "size": 3809,
+          "sha512": "59097f2db33c4d643a7440d6ef63b7416f1eaa57266a1e98d91d4ee9dbe8a8f95a0ea8a7ed58e31f3e24c77349842a0ec3a4a15d58840a6f24761afa3d06cac7",
+          "sha256": "2ef6f957a7643a7bcaaa092be0117ac7aa9a6ea97ff16c1ab233e18ad2ca7f49",
+          "sha1": "a76e08f3c678a4fdf5d9e3e4e5456fc49557f453",
+          "md5": "83220f7ec7b901d122dbaf7cef29c567"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.1+1.20.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.1+1.20.1-dev-shadow.jar",
+          "size": 76428,
+          "sha512": "e307233007a075c3d0db5f6b8f475c91f8ba591ef67ea307e0bf55731c9f5518614875cbbb451cedf1b85dfa51e6dbb589919c6ff8816c8eb509a253ecfe2516",
+          "sha256": "b97ab337381e9c75bc72ec5e80c6bec540dcf4902854ef28141bdd7a89689b3f",
+          "sha1": "f1791278a3d68fc1c199e4bf49393ddf0c84e175",
+          "md5": "4ce214d3b226bbb956dfb05ec624cb65"
+        }
+      ]
+    }
+  ]
+}
