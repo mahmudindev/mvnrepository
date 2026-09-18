@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenocommons",
+    "module": "orenocommons-fabric",
+    "version": "0.0.7+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.7+1.20.1.jar",
+          "url": "orenocommons-fabric-0.0.7+1.20.1.jar",
+          "size": 26188,
+          "sha512": "38a113507fa0b03b96b6b4454ae3ef5538ecd3f2d30bcfa629ca8c534c498727402215a4971fc5a2192ae7b61430e9492cbe97824a1c531002f756a1af2c2d96",
+          "sha256": "ef53af821aa308f4705e6476cd01a96005a296cf17046baa96e78fb01344b75f",
+          "sha1": "089f12d26c98237fa687c5fb9450606aafaacb7c",
+          "md5": "966e5d7ed91a87cc6c937fa4115c41bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.7+1.20.1.jar",
+          "url": "orenocommons-fabric-0.0.7+1.20.1.jar",
+          "size": 26188,
+          "sha512": "38a113507fa0b03b96b6b4454ae3ef5538ecd3f2d30bcfa629ca8c534c498727402215a4971fc5a2192ae7b61430e9492cbe97824a1c531002f756a1af2c2d96",
+          "sha256": "ef53af821aa308f4705e6476cd01a96005a296cf17046baa96e78fb01344b75f",
+          "sha1": "089f12d26c98237fa687c5fb9450606aafaacb7c",
+          "md5": "966e5d7ed91a87cc6c937fa4115c41bd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.7+1.20.1-sources.jar",
+          "url": "orenocommons-fabric-0.0.7+1.20.1-sources.jar",
+          "size": 8072,
+          "sha512": "1f00ef3d05d0fa2b14703dc2b8562ed9b4e1c365d4d1b6fb8e2019cfae76f08382d3742ce570db89a1e0a1ec5de36c800bc6a13db18ef2767876a7ae00834889",
+          "sha256": "3478c0a7b829ca2ddd3b3fa8e98542587ddbdc3f0fdd874f6c2b793f138611c0",
+          "sha1": "94f799bca3bc3520d80ee286abe257dafe52d50b",
+          "md5": "783374f3a2e9e9b2c4ab2f704eaf33ee"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.7+1.20.1-dev-shadow.jar",
+          "url": "orenocommons-fabric-0.0.7+1.20.1-dev-shadow.jar",
+          "size": 25114,
+          "sha512": "b51a8a474126a7f0c6a684458947f7f06d1901e3203d3e5c5f5383e4a3b961a96d78f8e0341184d65f6939fe12bc6c6b11540f22ccfc7c49f2dbbad161a8e48a",
+          "sha256": "3fe3a506088faa1e03f5a5a7971b5b5ee9ef33aea21eda76d00342aeb34bf739",
+          "sha1": "e5115a486361f194ed5c390a11a0fc3954475324",
+          "md5": "a61ee7d4047f8f054b492f7e103957b3"
+        }
+      ]
+    }
+  ]
+}
