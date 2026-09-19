@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.2+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.2+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.2+1.20.1.jar",
+          "size": 324797,
+          "sha512": "84ba8aaf528aa13c2d8a99bbb95058d109410f4b8a83795c8e9ec1719b7cb96c1163e3abff81c2e78e7441a43414bf15c710545428e679f608a1f4f5c10a5aa5",
+          "sha256": "4d70310f6c5c4ceda614ba126a0e9c43559b9f234f02dae1a44d1d2bfc0ae700",
+          "sha1": "b3b4a545fbe99f9b1c9681434dad19bf339ce7d0",
+          "md5": "a04c7f9dc44a69bdbc47d838bd8c4f7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.2+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.2+1.20.1.jar",
+          "size": 324797,
+          "sha512": "84ba8aaf528aa13c2d8a99bbb95058d109410f4b8a83795c8e9ec1719b7cb96c1163e3abff81c2e78e7441a43414bf15c710545428e679f608a1f4f5c10a5aa5",
+          "sha256": "4d70310f6c5c4ceda614ba126a0e9c43559b9f234f02dae1a44d1d2bfc0ae700",
+          "sha1": "b3b4a545fbe99f9b1c9681434dad19bf339ce7d0",
+          "md5": "a04c7f9dc44a69bdbc47d838bd8c4f7f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.2+1.20.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.2+1.20.1-sources.jar",
+          "size": 3809,
+          "sha512": "f0be9d5792e7efedabc5254528a3d36caadb6b44ea171646714bd846d4cb5f043f29f1810f113230aa0a41ee46b5916f1f0218ec946a4776d9e6bfe122acfdb4",
+          "sha256": "4172dbb91dea5309668059438660511538cad75d3ec26e4332bf89bda46dac6d",
+          "sha1": "41e19abd89a5be6e7f836806c49990b797c8c005",
+          "md5": "9175a1114d86b04a623c7cd8eabd8dd4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.2+1.20.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.2+1.20.1-dev-shadow.jar",
+          "size": 83322,
+          "sha512": "cc0cd034da9898f71e9275219ff291d24c3f0f9942ef77727854d918865aabfc15b8551833358c480431c7639bb1a2956ade15c8f24f9b1198b736a2df53a127",
+          "sha256": "f6a94f4e31511d086bab2a6823d6b6efafe79bc45f72b340099ad9b85419c461",
+          "sha1": "adca8c219748255693cf792f0bd2b9eb138a0b33",
+          "md5": "9df48fc3bdfc662b7f8a3659c048842b"
+        }
+      ]
+    }
+  ]
+}
