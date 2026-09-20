@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoevents",
+    "module": "orenoevents-fabric",
+    "version": "0.0.4+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.20.1.jar",
+          "url": "orenoevents-fabric-0.0.4+1.20.1.jar",
+          "size": 24189,
+          "sha512": "236c2e2183adb7a4420e4233ecec289b90f6c26c057cdbb69c8ca8d62ff55b49a1a7441b42014eef36c7732969f2755ebb049b4830b1ca8dd372d98cfecd2828",
+          "sha256": "2c84ac9294f8c335d0aeac9697e8e07c14970b52cf3cf6e082c3b6c13fa966fb",
+          "sha1": "508e675a169aa723cd4f1732d7f87f88ca2b9fcb",
+          "md5": "79ddcebb47c20e3526fb2ac410fd6d2d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.20.1.jar",
+          "url": "orenoevents-fabric-0.0.4+1.20.1.jar",
+          "size": 24189,
+          "sha512": "236c2e2183adb7a4420e4233ecec289b90f6c26c057cdbb69c8ca8d62ff55b49a1a7441b42014eef36c7732969f2755ebb049b4830b1ca8dd372d98cfecd2828",
+          "sha256": "2c84ac9294f8c335d0aeac9697e8e07c14970b52cf3cf6e082c3b6c13fa966fb",
+          "sha1": "508e675a169aa723cd4f1732d7f87f88ca2b9fcb",
+          "md5": "79ddcebb47c20e3526fb2ac410fd6d2d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.20.1-sources.jar",
+          "url": "orenoevents-fabric-0.0.4+1.20.1-sources.jar",
+          "size": 6706,
+          "sha512": "7c073763d24257600ecb5f8d3eee2dedadd51967803e2db77a08a38e04ae1c059eda17d909b714f0abdeed6b318b5faeae1cdab13fba996b77097276ef4ababf",
+          "sha256": "e748a787afee5ac14de58fe4b4b74b5487d81fa03977f943a28c182e9c7bf932",
+          "sha1": "0b95d781bd57a394ee0dc63eff9a2897f9b99d8a",
+          "md5": "2f6ae3e6ba6cd8d9c32b981557f0751a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.20.1-dev-shadow.jar",
+          "url": "orenoevents-fabric-0.0.4+1.20.1-dev-shadow.jar",
+          "size": 23220,
+          "sha512": "a52d8b0382b357996569e737dbbe2d82f47579481e46c7567e4f4f8c4149cbfdb66ba104ba249321ae5ee0be729040ae915d3e0212e28718177115200d0f26db",
+          "sha256": "db8afc25af9f355cb0ad9cb77dcde0c8c58fcddbc44465d7da1b02cbecddc26e",
+          "sha1": "8b22981d94fab4abfc1413dbdd071ae0fea54ed7",
+          "md5": "d7be40acf4f8287be8d253274d90d7c6"
+        }
+      ]
+    }
+  ]
+}
