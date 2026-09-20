@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.3+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.3+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.3+1.20.1.jar",
+          "size": 327098,
+          "sha512": "d6ed3540fdcdf7bf4c2046661ccf028e8d94a79f029a6747de7e7c15ef2d73e138f00752003fe3ab3d2203dd98526c4f3ac1702b9d58ab1aadf8f306c29f6c5e",
+          "sha256": "519a3ebc4f52ed61b495dbedbb781c3bee74f8e95bf80f79e555bcba32540727",
+          "sha1": "ee7edec190802dfc5a87cd3e2e7ee6f910c0a064",
+          "md5": "f51495b6dea7cb74ee2b85f68da368b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.3+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.3+1.20.1.jar",
+          "size": 327098,
+          "sha512": "d6ed3540fdcdf7bf4c2046661ccf028e8d94a79f029a6747de7e7c15ef2d73e138f00752003fe3ab3d2203dd98526c4f3ac1702b9d58ab1aadf8f306c29f6c5e",
+          "sha256": "519a3ebc4f52ed61b495dbedbb781c3bee74f8e95bf80f79e555bcba32540727",
+          "sha1": "ee7edec190802dfc5a87cd3e2e7ee6f910c0a064",
+          "md5": "f51495b6dea7cb74ee2b85f68da368b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.3+1.20.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.3+1.20.1-sources.jar",
+          "size": 3809,
+          "sha512": "165edcf2968a9e270d155b04a13c54d9d4b050e393ec6cfc2f4d3cf854fe5850415be94010b5dcaf04b2ac55a7c5f15eb4e3d259eb40f864407d7275282e5101",
+          "sha256": "7161dea673d74c6f031f6deab4ef29a1409127048926d4e728d9d01d7880f5d6",
+          "sha1": "f47b0265cff64d77ff8e586e51e46d6f22c5b6a5",
+          "md5": "49cc142fd5035c77c109b22df0c91d32"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.3+1.20.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.3+1.20.1-dev-shadow.jar",
+          "size": 83328,
+          "sha512": "55b84857f8e66482fe93a36382aba122686689f0311b80d414685b8d4093621ab06702c3d1f788d3b76732c25f961483ec5156a8d4ca57a59891411a4812cccc",
+          "sha256": "a5db852bce200c80700b08ba6429003093b3bab23352512571bcc3cfbe31e715",
+          "sha1": "6df0e0b9118aa77fb7cb6ab4fcd867f48ad80881",
+          "md5": "e9a4e3e807c99c8674f8db3d5ffd43be"
+        }
+      ]
+    }
+  ]
+}
