@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoevents",
+    "module": "orenoevents-fabric",
+    "version": "0.0.4+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.21.1.jar",
+          "url": "orenoevents-fabric-0.0.4+1.21.1.jar",
+          "size": 24189,
+          "sha512": "77eb072df307037eca0d3f01d728583f01adf1b54770c22bd0e4a17a11fc7953ba9bee20bc26cce8772dffd8f2bf55b864d8d96da1b2b3b04a3923e59d744a58",
+          "sha256": "ef86c55270e166b71142c8bb9419eb55550bf2e6eec600fa99fa75d7de6a5fe4",
+          "sha1": "b40bd53e104fc0e3d2a1b58bf0167d3303158f20",
+          "md5": "0123a9a041160236efbcc29eb27665b8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.21.1.jar",
+          "url": "orenoevents-fabric-0.0.4+1.21.1.jar",
+          "size": 24189,
+          "sha512": "77eb072df307037eca0d3f01d728583f01adf1b54770c22bd0e4a17a11fc7953ba9bee20bc26cce8772dffd8f2bf55b864d8d96da1b2b3b04a3923e59d744a58",
+          "sha256": "ef86c55270e166b71142c8bb9419eb55550bf2e6eec600fa99fa75d7de6a5fe4",
+          "sha1": "b40bd53e104fc0e3d2a1b58bf0167d3303158f20",
+          "md5": "0123a9a041160236efbcc29eb27665b8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.21.1-sources.jar",
+          "url": "orenoevents-fabric-0.0.4+1.21.1-sources.jar",
+          "size": 6736,
+          "sha512": "0393f621386459618bd0ad574da234056bf41b4fb9ede8a132c11b3ae728330b8302fed273537d1eadc82de415771f494848aed58d1f4e6728c53a723d629db6",
+          "sha256": "6bc10ac5371aef66e87285cfba3b1ed7ebf7ec6deb642f34a93aa9a540b33315",
+          "sha1": "34a13fe17b27550d0355f9e66ce5defae702d1e0",
+          "md5": "b582bd0249efc4f68ed8c7aaeb1e6b83"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4+1.21.1-dev-shadow.jar",
+          "url": "orenoevents-fabric-0.0.4+1.21.1-dev-shadow.jar",
+          "size": 23235,
+          "sha512": "9c5faa47310a8e6fc185e957098f8e4ae687710b6599a0b68893b715da0b1a9cfbc18b5bc9701e683e5941f4a35e09404f583da9c1d8ca577fea0baf857650c4",
+          "sha256": "dc1e3442b52a99221b8f624830453492d1d568adfa0fca10d1271d2fa74fc12a",
+          "sha1": "cbd08c5e1e06c01d1e893e84a2df4fb9e3d12e0c",
+          "md5": "5c55bc69554652c32905c36bc409aebc"
+        }
+      ]
+    }
+  ]
+}
