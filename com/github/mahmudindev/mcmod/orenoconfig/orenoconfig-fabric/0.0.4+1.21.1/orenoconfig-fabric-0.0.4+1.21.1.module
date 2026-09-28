@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.4+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.21.1.jar",
+          "size": 336839,
+          "sha512": "ab36a889212b77424da6a3b163b9976f4ba311406a3f29b6d5016aa7aac71dcb6630606b69c4d8db0f34da159cccdbe7be2c4726d5fa3e506102e1351ac242a0",
+          "sha256": "5b4c3d5a51352940a1fa55de756fe168193cadb6f9f2e55cec64e8c17a3d58d9",
+          "sha1": "73f8944e809c7d19177446a8b48116caf9d01636",
+          "md5": "ad63424c30393eaf7ee5d0cb587b2fce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.21.1.jar",
+          "size": 336839,
+          "sha512": "ab36a889212b77424da6a3b163b9976f4ba311406a3f29b6d5016aa7aac71dcb6630606b69c4d8db0f34da159cccdbe7be2c4726d5fa3e506102e1351ac242a0",
+          "sha256": "5b4c3d5a51352940a1fa55de756fe168193cadb6f9f2e55cec64e8c17a3d58d9",
+          "sha1": "73f8944e809c7d19177446a8b48116caf9d01636",
+          "md5": "ad63424c30393eaf7ee5d0cb587b2fce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.21.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.21.1-sources.jar",
+          "size": 3808,
+          "sha512": "224c7fdcb839a1cfc0a494c125b534164ba0e1678e871059558404f1e7d132f50ac630d884b5ad06d3907b94a3bca1b4acf0cdab66b07bac7f4c94f412024f7e",
+          "sha256": "469493baa98a24e9e902afccb7e092c2bc8e27d6f3b750d52f36eb15cfce44a3",
+          "sha1": "26cbe5b80d062e2e530f93aa6df76f231538aa0d",
+          "md5": "b828558dfce4696fefb6bad99d2051e1"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.21.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.21.1-dev-shadow.jar",
+          "size": 87730,
+          "sha512": "4286301c72cd6d98145dae827d22f7fd43bef68235973b22dee51efd5b2887fb215f3f094f6c3c40329e7be64eef4f9533305af616831d89ad9022fb0457d2da",
+          "sha256": "ee3ea145e655980db67dd9e4a15175d718af9efa980f7fb173325e8e85cd1f27",
+          "sha1": "35a9f938418975d1d7859c5cb7fa90fcff306250",
+          "md5": "c8b6d3cc384b61d91a212be981ff8da4"
+        }
+      ]
+    }
+  ]
+}
