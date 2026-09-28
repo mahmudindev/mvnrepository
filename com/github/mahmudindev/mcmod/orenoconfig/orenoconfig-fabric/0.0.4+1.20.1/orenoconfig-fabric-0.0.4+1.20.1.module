@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.4+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.20.1.jar",
+          "size": 330577,
+          "sha512": "a277b6412876f9e70d910e7fa455004ddcafc8653ecfabc07c9679964b2ee68dfb182fb30ff201cb27db2f05eac2a66701fdf2793b2fff2142fa978de822de43",
+          "sha256": "74d6c3032ddf90451d4c6e7fdcf39f2e96279accbb9c17aeacd3cdbd2b312084",
+          "sha1": "9f33228a9a134efe8305fc7763ff899433e460d4",
+          "md5": "b796417bea074735faa535dbe460f58d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.20.1.jar",
+          "size": 330577,
+          "sha512": "a277b6412876f9e70d910e7fa455004ddcafc8653ecfabc07c9679964b2ee68dfb182fb30ff201cb27db2f05eac2a66701fdf2793b2fff2142fa978de822de43",
+          "sha256": "74d6c3032ddf90451d4c6e7fdcf39f2e96279accbb9c17aeacd3cdbd2b312084",
+          "sha1": "9f33228a9a134efe8305fc7763ff899433e460d4",
+          "md5": "b796417bea074735faa535dbe460f58d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.20.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.20.1-sources.jar",
+          "size": 3809,
+          "sha512": "7e34b09f9ca622d5503c26424089d674a9fd6e73f335915f5eae709ba7de8f97d28b1a691fb76798e1339668fd41b8f65c658326680faa9d9ee645ea6d658d4d",
+          "sha256": "f6ae2a2dbd9da642376f73a6c12ada6317606fd79be9e73caed00c764295ed35",
+          "sha1": "0fc15bdfb8fd6d832dcc49707af26cd2a252f6f3",
+          "md5": "c095829505d87fbcd3d851b8bc39b83b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.4+1.20.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.4+1.20.1-dev-shadow.jar",
+          "size": 83583,
+          "sha512": "761598b2a02842b7d8481917af07387db90074dbeb3bcacbfb34351eeac52b03137cc22c04b47a3a1ad00f9e5bc1eab55cbb03190a663d8cfbede08345778bc5",
+          "sha256": "f9afc6bf66a58e5caca1fcb4209af61c70a86f1f12aea04bd7743fb7f98f8bc0",
+          "sha1": "0cb3a8b38e352f1cd992ba9b03fe3074ff7cdb7f",
+          "md5": "cd0d5dd5a0169b6e165c3c97a733cc25"
+        }
+      ]
+    }
+  ]
+}
