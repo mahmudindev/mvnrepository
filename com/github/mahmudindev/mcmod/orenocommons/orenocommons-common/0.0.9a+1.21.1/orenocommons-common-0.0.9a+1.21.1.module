@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenocommons",
+    "module": "orenocommons-common",
+    "version": "0.0.9a+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenocommons-common-0.0.9a+1.21.1.jar",
+          "url": "orenocommons-common-0.0.9a+1.21.1.jar",
+          "size": 21362,
+          "sha512": "920148e54763d98d308f6db19bc0784948f3fa0a88ccfbfa119be5665d067cf53ddf9dedbd43e5bdc7b85bc1c77186448a641736668c12109df6c71f913d80ca",
+          "sha256": "7053c417de380d662837983aaa66a0363b44c334a120492e8739ae6a7aac07c6",
+          "sha1": "9dc01a5462b82d23a233a85bebbba6c532b564d9",
+          "md5": "872e444edb430dd7b920e451000d7767"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenocommons-common-0.0.9a+1.21.1.jar",
+          "url": "orenocommons-common-0.0.9a+1.21.1.jar",
+          "size": 21362,
+          "sha512": "920148e54763d98d308f6db19bc0784948f3fa0a88ccfbfa119be5665d067cf53ddf9dedbd43e5bdc7b85bc1c77186448a641736668c12109df6c71f913d80ca",
+          "sha256": "7053c417de380d662837983aaa66a0363b44c334a120492e8739ae6a7aac07c6",
+          "sha1": "9dc01a5462b82d23a233a85bebbba6c532b564d9",
+          "md5": "872e444edb430dd7b920e451000d7767"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-common-0.0.9a+1.21.1-sources.jar",
+          "url": "orenocommons-common-0.0.9a+1.21.1-sources.jar",
+          "size": 13288,
+          "sha512": "c89bb15a3937441650a5708b3dc30ae3b940d79b94e4faa8cc36328736aed7ed5ef00ee13604171ce11d2a461fc71892ec27b37782993a6582e0c8fc11a09847",
+          "sha256": "db2f453bd7474c2d045f5cd047a168bc6c49d9f425f9f6ab727aadd7054ae2c1",
+          "sha1": "825591b5ed33885f2db061f1d663228574a59de6",
+          "md5": "6d00e55d6551a456bb2fe8643622676f"
+        }
+      ]
+    }
+  ]
+}
