@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.5+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.5+1.21.1.jar",
+          "size": 335203,
+          "sha512": "a43a6f0e5970ffb5e5d104d17c40c3e81045460350235ac1b27d0564b3803b1837e9834c86307be53dcc0c5964f1afafac00eac7160309608b857f74fc833dd3",
+          "sha256": "df1dd28a988512711d7a4eefbe7c4198ad9d30cccc687975e9c11fca4ddf8349",
+          "sha1": "30aa2b356aba57e8999a6382d779eabe06848607",
+          "md5": "9502c9c327ead39b36764367957023d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.5+1.21.1.jar",
+          "size": 335203,
+          "sha512": "a43a6f0e5970ffb5e5d104d17c40c3e81045460350235ac1b27d0564b3803b1837e9834c86307be53dcc0c5964f1afafac00eac7160309608b857f74fc833dd3",
+          "sha256": "df1dd28a988512711d7a4eefbe7c4198ad9d30cccc687975e9c11fca4ddf8349",
+          "sha1": "30aa2b356aba57e8999a6382d779eabe06848607",
+          "md5": "9502c9c327ead39b36764367957023d5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+1.21.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.5+1.21.1-sources.jar",
+          "size": 3808,
+          "sha512": "17072ea40e206a2564de5e31045b2ee0986e9c070cc322ea2d22c1e6f3b253764a63da0a299e51653acfabbce0419e89ae68fe7b8c369cfe897dfda90bb28313",
+          "sha256": "d306ece8363d2921b476413fbf70f670bc38508a7e466c6755d15bfd503e991b",
+          "sha1": "05f686e96c8ec1a39eafefe8031a1d45841a75f2",
+          "md5": "0dfd8830883952b1944718b98775cc68"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+1.21.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.5+1.21.1-dev-shadow.jar",
+          "size": 86067,
+          "sha512": "4d568022e7ab5baa0fc28f7af73b19b22de9e0902873252d95a8b67504ac00466e84485d80bf7c783967640fa4174b7300448efc6acb16f8566441c475d3137f",
+          "sha256": "2fdf708ca004e8a8351f9e4d11f9615afa92a913d01346ee9988a8c32cb5484e",
+          "sha1": "dc3b6a1a0c5498db433772ad096584c14cc561b1",
+          "md5": "726c7e4955de4a34629c71cd17aa7bee"
+        }
+      ]
+    }
+  ]
+}
