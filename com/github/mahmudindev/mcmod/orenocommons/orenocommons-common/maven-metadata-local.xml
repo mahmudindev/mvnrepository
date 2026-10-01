@@ -3,8 +3,8 @@
   <groupId>com.github.mahmudindev.mcmod.orenocommons</groupId>
   <artifactId>orenocommons-common</artifactId>
   <versioning>
-    <latest>0.0.9a+1.21.1</latest>
-    <release>0.0.9a+1.21.1</release>
+    <latest>0.0.9b+1.21.1</latest>
+    <release>0.0.9b+1.21.1</release>
     <versions>
       <version>0.0.1+1.20.1</version>
       <version>0.0.2+1.20.1</version>
@@ -17,7 +17,8 @@
       <version>0.0.9+1.20.1</version>
       <version>0.0.9+1.21.1</version>
       <version>0.0.9a+1.21.1</version>
+      <version>0.0.9b+1.21.1</version>
     </versions>
-    <lastUpdated>20260930125937</lastUpdated>
+    <lastUpdated>20261001060451</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenocommons",
+    "module": "orenocommons-fabric",
+    "version": "0.0.9b+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.9b+1.21.1.jar",
+          "url": "orenocommons-fabric-0.0.9b+1.21.1.jar",
+          "size": 32905,
+          "sha512": "03ab7977aa56373efd5ac7feac788e7cf1a1407f74a80df3a6e6b01c8a1cbc60f193b8471ecf1b8dd0a7af099fdbd35953057df6621e2cf9ebe39bedc8f2a54a",
+          "sha256": "9fdaa29e636546e6556058069a9111dd7c26827da082cafbe5ee6fbffa622934",
+          "sha1": "ed2aba44e4b927856d926d7c01aefcb9c7398392",
+          "md5": "9ad20c56179b19c5e0a5ac3c34213f1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.9b+1.21.1.jar",
+          "url": "orenocommons-fabric-0.0.9b+1.21.1.jar",
+          "size": 32905,
+          "sha512": "03ab7977aa56373efd5ac7feac788e7cf1a1407f74a80df3a6e6b01c8a1cbc60f193b8471ecf1b8dd0a7af099fdbd35953057df6621e2cf9ebe39bedc8f2a54a",
+          "sha256": "9fdaa29e636546e6556058069a9111dd7c26827da082cafbe5ee6fbffa622934",
+          "sha1": "ed2aba44e4b927856d926d7c01aefcb9c7398392",
+          "md5": "9ad20c56179b19c5e0a5ac3c34213f1a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.9b+1.21.1-sources.jar",
+          "url": "orenocommons-fabric-0.0.9b+1.21.1-sources.jar",
+          "size": 8845,
+          "sha512": "8aa98fc2cef8f3d201fc3cd9ac869e08e9a2f857775e00677ec7b2d03722d067288bbd232e3c0d0ac6d0aac5506e3009939cd483684b7006ad43f391580faede",
+          "sha256": "6a9c184fbe1a6c30bfb3a04969bb94f3d0a8c8d083fadc8d7e54f1c54ac5ec99",
+          "sha1": "5fb965bb7a9823c7fef7cca57710df134c08fef8",
+          "md5": "210ebef6caa1640d18a64d2a6220ca49"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.9b+1.21.1-dev-shadow.jar",
+          "url": "orenocommons-fabric-0.0.9b+1.21.1-dev-shadow.jar",
+          "size": 31829,
+          "sha512": "a1be95e55c158e4702945c0a894ca138c8ce02e93695a3439bb5dd493f4aa53509f7ab2f1c6129fd92ae764cf0fb6dacd70309e0d2e2734083ab2c28903bea83",
+          "sha256": "6107e1b3a35369e1f3a17486aa96cddfdc155422bdc32bafdf6835675a898c34",
+          "sha1": "b69b10488a352983dd8dfb611d616171110ce052",
+          "md5": "dbff5a55a083626cb08e2a3b5aa5aec0"
+        }
+      ]
+    }
+  ]
+}
