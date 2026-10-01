@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoevents",
+    "module": "orenoevents-fabric",
+    "version": "0.0.4a+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4a+1.21.1.jar",
+          "url": "orenoevents-fabric-0.0.4a+1.21.1.jar",
+          "size": 24193,
+          "sha512": "e71b94cff6c7acc2042ae3562d4dc3d81ede93af5b35a4d0ff4d1f37b619fc6d823e6a86522df71d085f30541b739eb5ddb019ad2ef1934063f1df9eaffe21c0",
+          "sha256": "d15d74fe50a851040d8289ee5a799f3ab56ed94c1e16f625b0054798e58eac64",
+          "sha1": "a5a1b1d7e6d563071c9e077910189dade8e9ba1d",
+          "md5": "28e11255ab13f7b7461cbd443a520264"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4a+1.21.1.jar",
+          "url": "orenoevents-fabric-0.0.4a+1.21.1.jar",
+          "size": 24193,
+          "sha512": "e71b94cff6c7acc2042ae3562d4dc3d81ede93af5b35a4d0ff4d1f37b619fc6d823e6a86522df71d085f30541b739eb5ddb019ad2ef1934063f1df9eaffe21c0",
+          "sha256": "d15d74fe50a851040d8289ee5a799f3ab56ed94c1e16f625b0054798e58eac64",
+          "sha1": "a5a1b1d7e6d563071c9e077910189dade8e9ba1d",
+          "md5": "28e11255ab13f7b7461cbd443a520264"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4a+1.21.1-sources.jar",
+          "url": "orenoevents-fabric-0.0.4a+1.21.1-sources.jar",
+          "size": 6736,
+          "sha512": "6cb699ad0d79f6c8c24fb951f7529539f994ca805f8ae0855dad301c020c9199c6987923e36b37e5a2a27fd2063611cc99c7fbfba6374596d513b58d3e81d7d0",
+          "sha256": "29ca988380cc0eb469449e7feb21084dcb4c539c52406d5169ca0eee02535af1",
+          "sha1": "3b22d8a3592d9a17c2e7816c4ec52b1b11e403d0",
+          "md5": "4113a8c59be1b092512a6ad0b841820b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoevents-fabric-0.0.4a+1.21.1-dev-shadow.jar",
+          "url": "orenoevents-fabric-0.0.4a+1.21.1-dev-shadow.jar",
+          "size": 23239,
+          "sha512": "4c782bc7e019dbc5ea911d11787482d797bcdf071104397e21dea6014e54b84287acbfe5ad596a5274878e68272b7d4a3bf8ef390594fcc06c267ac400954fee",
+          "sha256": "18d6aea546e3c91049ba71aea1a22bb8913f96dea2d4d941f77341347573df49",
+          "sha1": "1dd0301d2e8bd60f4f35ad8a158f06173c7c44f0",
+          "md5": "34d249d42f6705e7d156a915295b50ab"
+        }
+      ]
+    }
+  ]
+}
