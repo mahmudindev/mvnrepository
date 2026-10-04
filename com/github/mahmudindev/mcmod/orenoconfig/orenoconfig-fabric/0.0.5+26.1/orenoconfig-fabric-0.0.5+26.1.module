@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.5+26.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+26.1.jar",
+          "url": "orenoconfig-fabric-0.0.5+26.1.jar",
+          "size": 335166,
+          "sha512": "3c126b9a103f3e5b1f44f2046db17ca4592a19eb8eb48911730ace1bbe9bf6dc1c46b1b8f796b83b70ed78fb538eaa4c5d9b9c053594f656e5d45e1e57ffef0c",
+          "sha256": "bbba67f01888706aa9ca6358c703f9c3a07bb286a9b560219aeaccc3fb8b547d",
+          "sha1": "f021272b439e7000e6876531446c7dac7b14ac61",
+          "md5": "69974d0fc00afe1e5ded0730eb04aaa2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.145.1+26.1"
+          }
+        },
+        {
+          "group": "com.github.mahmudindev.mcmod.orenocommons",
+          "module": "orenocommons-fabric",
+          "version": {
+            "requires": "0.0.9a+26.1"
+          }
+        },
+        {
+          "group": "com.github.mahmudindev.mcmod.orenoevents",
+          "module": "orenoevents-fabric",
+          "version": {
+            "requires": "0.0.4+26.1"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+26.1.jar",
+          "url": "orenoconfig-fabric-0.0.5+26.1.jar",
+          "size": 335166,
+          "sha512": "3c126b9a103f3e5b1f44f2046db17ca4592a19eb8eb48911730ace1bbe9bf6dc1c46b1b8f796b83b70ed78fb538eaa4c5d9b9c053594f656e5d45e1e57ffef0c",
+          "sha256": "bbba67f01888706aa9ca6358c703f9c3a07bb286a9b560219aeaccc3fb8b547d",
+          "sha1": "f021272b439e7000e6876531446c7dac7b14ac61",
+          "md5": "69974d0fc00afe1e5ded0730eb04aaa2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+26.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.5+26.1-sources.jar",
+          "size": 26148,
+          "sha512": "c827071681d5d7e85c180b6865824914f7eb9a668514d98b99c20be7c989fcbb32b617360ab3eea0bf0f944f0eaad335756f1e536bb4607de5ab6449de223763",
+          "sha256": "a2a5190528441fe8a3dfe258f477ab305f1f95e139b7d7fcb9c5512d28acd6dd",
+          "sha1": "01f2fe061f1f6e3e70edcb18d2a669ce762f976a",
+          "md5": "23a2a37055722f5b79ee01964b3b1744"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.5+26.1-javadoc.jar",
+          "url": "orenoconfig-fabric-0.0.5+26.1-javadoc.jar",
+          "size": 4281752,
+          "sha512": "b5abae22ed1e1854230cd67615cc337096bad75d35d11e5b4ddf1ecedcad1557bad8444f0547f98b601d394e160417e89de4b1bfa320a2cfba587b06e5d2be55",
+          "sha256": "fb8815091b9e2357b304128834f499bde6f26b0a5ce2c56f6167a6d8aeed8588",
+          "sha1": "81dfe977ab65ffaa0a170a14a1ad29a30a1fa28d",
+          "md5": "14f470662124ca03b3261b089335e1a2"
+        }
+      ]
+    }
+  ]
+}
