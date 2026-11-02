@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.6+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.6+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.6+1.21.1.jar",
+          "size": 338080,
+          "sha512": "0b4c39e372c6798ec736aeb9928fc3655b130727ca74e5cb3db5cfabf25863415d5509ea471092d57c03174118cf3aa0a4eea7089abbbf10bf3692ee85af47a6",
+          "sha256": "456779367dd223b12c0a3786edd456d215e380cc7593a3b3c47c3f827b06ca5c",
+          "sha1": "9f9dcc7f705ce90e0e6596f5fd0584fa45f87495",
+          "md5": "edbf7465a14da16d419ecadf234d5b09"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.6+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.6+1.21.1.jar",
+          "size": 338080,
+          "sha512": "0b4c39e372c6798ec736aeb9928fc3655b130727ca74e5cb3db5cfabf25863415d5509ea471092d57c03174118cf3aa0a4eea7089abbbf10bf3692ee85af47a6",
+          "sha256": "456779367dd223b12c0a3786edd456d215e380cc7593a3b3c47c3f827b06ca5c",
+          "sha1": "9f9dcc7f705ce90e0e6596f5fd0584fa45f87495",
+          "md5": "edbf7465a14da16d419ecadf234d5b09"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.6+1.21.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.6+1.21.1-sources.jar",
+          "size": 3808,
+          "sha512": "e4eeacbed4cf7e4cf37959b40bb6f18ba66b842a6fe7c2358f9da959e791051962bacf52ac438b92207046c5e5d676846ec5108b8ee6d13c604bfb5a9dcaf6a7",
+          "sha256": "2ebf1038286bd8b58973c10c4e7e63a8439614dc791a9c2a7944f205d2ad014e",
+          "sha1": "f9f898a507c6e52ac33771750890bc98a58e14fd",
+          "md5": "7efa15bf6bb2d44c9e38716184c8629a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.6+1.21.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.6+1.21.1-dev-shadow.jar",
+          "size": 86628,
+          "sha512": "77d073a3a0ec2813265581133425b0a7e50603d175a3862ffaec52a19054fff0ffd082d1f0ece5ab4c0ab8c21073dc43c02da85444471ff6c0a488fc0d8efe9e",
+          "sha256": "a3f281e8535fa0c44c4cdae5fdceabd83af7100d2aeca0e55c45e32057b11bda",
+          "sha1": "2b0b13a2ed4613ed652434af782ec3bb60d73065",
+          "md5": "3ca6be758e03f04b5700c66b29aaeace"
+        }
+      ]
+    }
+  ]
+}
