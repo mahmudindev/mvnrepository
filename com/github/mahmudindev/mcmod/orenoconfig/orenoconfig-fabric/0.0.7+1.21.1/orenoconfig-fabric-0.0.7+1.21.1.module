@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.7+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.21.1.jar",
+          "size": 338327,
+          "sha512": "0865d0255d86706e5ec6255003fd44620e43ddef0f945dd2bd76cbbb457890a9c4e5153443a0611810e97e0f6abe251a37a0b48540d8e3d6f48c421ca76f7506",
+          "sha256": "1e6cdbe7cc9ae9e5cd3b03bb41608b9bacebb867b6e96f6e4b24687355b0c3f3",
+          "sha1": "527764239f7f65b6a0eab208eccb915b8d7ca665",
+          "md5": "740d14a09adc36f3a0809d28f906173b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.21.1.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.21.1.jar",
+          "size": 338327,
+          "sha512": "0865d0255d86706e5ec6255003fd44620e43ddef0f945dd2bd76cbbb457890a9c4e5153443a0611810e97e0f6abe251a37a0b48540d8e3d6f48c421ca76f7506",
+          "sha256": "1e6cdbe7cc9ae9e5cd3b03bb41608b9bacebb867b6e96f6e4b24687355b0c3f3",
+          "sha1": "527764239f7f65b6a0eab208eccb915b8d7ca665",
+          "md5": "740d14a09adc36f3a0809d28f906173b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.21.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.21.1-sources.jar",
+          "size": 3808,
+          "sha512": "6ba9ee711a6df2c17b22bb0024e276aabaf3a14f6efeff442b201d459f94960efeede9387fa83e13fc89df173909b21862a2eb4908cac12fd79394565035b1db",
+          "sha256": "937fe21c65bd981b15b8b40be4fd9170c188238d4084f202798b2b3e2b7a678b",
+          "sha1": "a1482a83734e274eb4cfe965b4fae9b187fb565c",
+          "md5": "2f8497b24711a9293aa834e3aeacafdf"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.21.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.21.1-dev-shadow.jar",
+          "size": 86875,
+          "sha512": "7d3056db8d9a9d450cf15477f77275f36b60973b7113eaf3e7e7df3b64787a54e3468c1be7b8ed77afa4939b6b7fafcced7e007b0afba890b792c93ab5f132c5",
+          "sha256": "c7fef859c8f2eed1a034f7f33d8bdef4a8ec6eccad2ff156aef8904847d86217",
+          "sha1": "6914468c1014740ac9d2e57ff10508e127368e7c",
+          "md5": "9439fb2420f744a7e36fcafb810522c9"
+        }
+      ]
+    }
+  ]
+}

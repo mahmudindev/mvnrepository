@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-neoforge",
+    "version": "0.0.7+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-neoforge-0.0.7+1.21.1.jar",
+          "url": "orenoconfig-neoforge-0.0.7+1.21.1.jar",
+          "size": 134596,
+          "sha512": "af74f60c57301667815ae683dd0f4abf1bae8ddde4f66e8a3245c204db2970086603d7bf4bdf3c2f900efe869dbf4cb2af50504d64e051a1622b19be4512bfe2",
+          "sha256": "4cdcf95cb3f2ae97f34c083f9e1e45f817dc695273afc288921e546e21141796",
+          "sha1": "a53e0a06d176d2db7d91ed94e9966b3aed24da0f",
+          "md5": "682af5e5d7584606de5fb7a0630dd773"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-neoforge-0.0.7+1.21.1.jar",
+          "url": "orenoconfig-neoforge-0.0.7+1.21.1.jar",
+          "size": 134596,
+          "sha512": "af74f60c57301667815ae683dd0f4abf1bae8ddde4f66e8a3245c204db2970086603d7bf4bdf3c2f900efe869dbf4cb2af50504d64e051a1622b19be4512bfe2",
+          "sha256": "4cdcf95cb3f2ae97f34c083f9e1e45f817dc695273afc288921e546e21141796",
+          "sha1": "a53e0a06d176d2db7d91ed94e9966b3aed24da0f",
+          "md5": "682af5e5d7584606de5fb7a0630dd773"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-neoforge-0.0.7+1.21.1-sources.jar",
+          "url": "orenoconfig-neoforge-0.0.7+1.21.1-sources.jar",
+          "size": 3705,
+          "sha512": "7f072b0463b0fe65b20a47787617c08a3339ebdaca57f9101677955672f6a7cd9774905ea91e4227a8a5fee9ce2eca01772686fb7a89e9fccb5cdd2e1e9c565b",
+          "sha256": "463815d786e9c0e51bf88690a05c949b84b1f3bdcac879af168204ce0e6628a6",
+          "sha1": "e218d6272484f435496b0ef56b139766f8d62534",
+          "md5": "80efd41efc6531f521a3649c30161eb6"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-neoforge-0.0.7+1.21.1-dev-shadow.jar",
+          "url": "orenoconfig-neoforge-0.0.7+1.21.1-dev-shadow.jar",
+          "size": 86965,
+          "sha512": "51795b3a9b085c4be231253e1e4461b14da982b8a2ce7b91f9b4c7b5bef64f595f4e173c2accc78158c4a51c22a1709f9a47ef4304c5eb0c716a527ebde1067d",
+          "sha256": "b313c38d085ac72387d7c0145001eebb1a8455c6530bd9ce57861211dc7360e6",
+          "sha1": "794a26cf94799805cba05dab41341a2b6582ad44",
+          "md5": "2030502a2f805809f145fbb2ab18f1eb"
+        }
+      ]
+    }
+  ]
+}
