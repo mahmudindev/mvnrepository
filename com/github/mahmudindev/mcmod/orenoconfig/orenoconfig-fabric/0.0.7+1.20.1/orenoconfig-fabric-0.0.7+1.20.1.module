@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenoconfig",
+    "module": "orenoconfig-fabric",
+    "version": "0.0.7+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.20.1.jar",
+          "size": 333483,
+          "sha512": "929238f3cf1a2d69f88598393bb171d819a8c0bad9f2b252f32a31a00498ec278bcce7d80a97d9c9230203d6f58db3bb2289ae0692fa97664f6ad53b5f5775a7",
+          "sha256": "93de2b0374232b05df5d3e0ca8c2e405cb3a7c2daf73e101b65154e6722e2959",
+          "sha1": "5e489110bb59cc08371f2e8be41bd293ae542c0d",
+          "md5": "65c6fc1608f79e5b0cb9044e9a2eb76e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.6+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.20.1.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.20.1.jar",
+          "size": 333483,
+          "sha512": "929238f3cf1a2d69f88598393bb171d819a8c0bad9f2b252f32a31a00498ec278bcce7d80a97d9c9230203d6f58db3bb2289ae0692fa97664f6ad53b5f5775a7",
+          "sha256": "93de2b0374232b05df5d3e0ca8c2e405cb3a7c2daf73e101b65154e6722e2959",
+          "sha1": "5e489110bb59cc08371f2e8be41bd293ae542c0d",
+          "md5": "65c6fc1608f79e5b0cb9044e9a2eb76e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.20.1-sources.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.20.1-sources.jar",
+          "size": 3809,
+          "sha512": "67d04dae76b2197f4e0ae3e034622ca83adda8caaea60e2726a48eb26ff5f99cbb8e0ddac9996d4ee82530617524201aab19bbeccbfa4512fefc190542bff7f4",
+          "sha256": "cb0bbaa82b5c8317937469a3f09b7b6852af278a18519dd514d3b8f0a466f044",
+          "sha1": "cd3bd2fd2246f42da5bb61c9f3b6fdb5f54caa68",
+          "md5": "76492750643a97fda5196fa13d0a115d"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenoconfig-fabric-0.0.7+1.20.1-dev-shadow.jar",
+          "url": "orenoconfig-fabric-0.0.7+1.20.1-dev-shadow.jar",
+          "size": 83732,
+          "sha512": "0b47ccbefee20657297663ee05484881f65a67790a008ad81e4671260dc15123a8b8d740f075dddbc40f63b26a8049a55deb5697e0bd6f51dd388e71ba8050d4",
+          "sha256": "b0944b5d9a93cb3d35f9bbe8abf8a7056f2ddd5fe21afde6e781f0202d576691",
+          "sha1": "b603ecc7d29fa15f4f821d00dc2cdee61feaed44",
+          "md5": "de69533615df39a6fb21fde410e46907"
+        }
+      ]
+    }
+  ]
+}
