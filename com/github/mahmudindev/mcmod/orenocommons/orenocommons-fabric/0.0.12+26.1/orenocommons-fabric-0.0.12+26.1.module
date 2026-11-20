@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mahmudindev.mcmod.orenocommons",
+    "module": "orenocommons-fabric",
+    "version": "0.0.12+26.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.12+26.1.jar",
+          "url": "orenocommons-fabric-0.0.12+26.1.jar",
+          "size": 89200,
+          "sha512": "3986c6982a86e70863909ecde2896f5d5533aef7db9ca86afbc9c4b46de177a20966d1972508f8a0f3baf1d2a736a20e8957179171c2720dc712a4001f00ba04",
+          "sha256": "959432f886ee838f0d4bbac4e7960c7e150a84e9694b99c4da1f05a7eeb133c9",
+          "sha1": "fc9caf02524090130b925284fee99032ddca9054",
+          "md5": "9ccc90e9f398a75ba9c8f1aab72987d3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.145.1+26.1"
+          }
+        },
+        {
+          "group": "org.semver4j",
+          "module": "semver4j",
+          "version": {
+            "requires": "6.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.12+26.1.jar",
+          "url": "orenocommons-fabric-0.0.12+26.1.jar",
+          "size": 89200,
+          "sha512": "3986c6982a86e70863909ecde2896f5d5533aef7db9ca86afbc9c4b46de177a20966d1972508f8a0f3baf1d2a736a20e8957179171c2720dc712a4001f00ba04",
+          "sha256": "959432f886ee838f0d4bbac4e7960c7e150a84e9694b99c4da1f05a7eeb133c9",
+          "sha1": "fc9caf02524090130b925284fee99032ddca9054",
+          "md5": "9ccc90e9f398a75ba9c8f1aab72987d3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.12+26.1-sources.jar",
+          "url": "orenocommons-fabric-0.0.12+26.1-sources.jar",
+          "size": 22629,
+          "sha512": "1512e7d272c734851872d86c8448aa2a1116fefb97cd7cbe36872071a3e8f622422a0dc2bbdc665c75fb4357f73992344683c6f81afe0a3cfb23ba02ed0473c5",
+          "sha256": "6252334a17902ce1c23b9603562183eebe6873fd4f00157887e788df6dd2e77a",
+          "sha1": "60edf47bcf4cc36c08aa7376b8a4682316c0f387",
+          "md5": "b941aa5be99c350fc37ef00089bb2dbb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "orenocommons-fabric-0.0.12+26.1-javadoc.jar",
+          "url": "orenocommons-fabric-0.0.12+26.1-javadoc.jar",
+          "size": 4293959,
+          "sha512": "51ee481add3a514ec078fa183bfd4338fd348989a10e6624f13a159f887eba5a916520e085a42485c6300cfc2bbd2c0dd1022f41992bd54bd97fbb71bc460a6c",
+          "sha256": "5e3406d1d861eb1f0652120574a0b8360ccf7e1be242b04564eed53e00a326ce",
+          "sha1": "4f9a127590d44023c9ad7a092b4017c953437d10",
+          "md5": "4567f9876878492d991f7e7defe971a9"
+        }
+      ]
+    }
+  ]
+}
